@@ -286,7 +286,7 @@ gulp.task('default', ['clean'], function (cb) {
 gulp.task('deploy', function() {
   return gulp.src('dist/**/*', {dot: true})
     .pipe($.ghPages({
-      remoteUrl: 'https://imartinezl.github.io/'
+      remoteUrl: 'https://github.com/romannurik/portfolio.git'
     }));
 });
 
