@@ -1,0 +1,33 @@
+{% extends '_base.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="/styles/landing.css">
+{% endblock %}
+
+{% block js %}
+<script src="/scripts/landing.js"></script>
+{% endblock %}
+
+{% block page-body %}
+  <div class="top"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="avatar"></div>
+
+      <p>Hi, I’m Roman.</p>
+      <p>I’m a designer and <a href="https://medium.com/@romannurik/walk-then-talk-3b935bfe5484">design advocate</a> at Google in New York.</p>
+      <p>I do web and Android stuff like <a href="http://code.muzei.co">Muzei</a>. See more in my <a href="/portfolio/">portfolio</a>.</p>
+
+      <!-- icons thanks to https://github.com/shalinguyen/socialicious -->
+      <div class="icons">
+        <a rel="me" href="https://twitter.com/romannurik" title="Twitter" class="twitter"></a>
+        <a rel="me" href="https://plus.google.com/+RomanNurik/posts" title="Google+" class="googleplus"></a>
+        <a rel="me" href="https://medium.com/@romannurik" title="Medium" class="medium"></a>
+        <a rel="me" href="https://dribbble.com/romannurik" title="Dribbble" class="dribbble"></a>
+        <a rel="me" href="https://github.com/romannurik" title="GitHub" class="github"></a>
+        <a rel="me" href="" title="Email" class="email obfuscated" data-email="roman nurik net"></a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"></div>
+{% endblock %}
