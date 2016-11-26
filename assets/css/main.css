@@ -1592,6 +1592,6 @@
 
 		iframe.noScrolling{
 			width: 100rem; /*or any other size*/
-			height: 100rem; /*or any other size*/
+			height: 100rem; /*or any other size*/ 
 			overflow: hidden;
 		}
