@@ -163,7 +163,7 @@
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
-	h2, h5, h6 {
+	h2, h6 {
 		color: #000;
 		font-weight: 600;
 		line-height: 1.5;
@@ -181,6 +181,13 @@
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}
+	h5{
+		color: #ffffff;
+		font-weight: 300;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
 		letter-spacing: 0.2rem;
 	}
 
@@ -220,7 +227,7 @@
 	}
 
 	h5 {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	h6 {
@@ -705,7 +712,7 @@
 			.image.right{
 				float: none;
 				display: block;
-				margin: 1.5rem 0;
+				margin: 1.5rem 4rem;
 				width: 100%;
 			}
 
@@ -1281,7 +1288,7 @@
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 1.5rem 0rem;
+				padding: 1.5rem 3rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
